@@ -3,8 +3,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding: .5em;
     background-color: lightgray;
     position: sticky;
     top: 0;
@@ -35,28 +34,67 @@ header ul {
     border-left: 2px solid black;
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
 .posts {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 1em;
 }
 
 .post {
     width: 800px;
     border-radius: 5px;
     background-color: lightgray;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.post:first-child {
+    margin-top: 0;
 }
 
 .post-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.post-body {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.post-body img {
+    max-width: 100%;
+    max-height: 500px;
+    align-self: center;
+}
+
+.post-footer img {
+    width: 2em;
+    height: 2em;
 }
 
 .profile-icon {
-    width: 50px;
-    height: 50px;
-    background-color: rebeccapurple;
-    flex-shrink: 0;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.filler {
+    background-color: lightgray;
+    flex: 1;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
 }
 
 footer {
