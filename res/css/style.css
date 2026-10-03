@@ -5,6 +5,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    font-family:"Consolas";
 }
 
 header {
@@ -164,7 +165,7 @@ footer {
 }
 
 .form-group label {
-    width: 90px;
+    width: 100px;
     font-weight: 500;
     color: black;
     line-height: 1.2;
