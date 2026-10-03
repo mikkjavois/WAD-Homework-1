@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAD Homework 1 - Add Post</title>
+    <link rel="stylesheet" href="res/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+        <img class="profile-icon" src="res/images/avatar.jpg">
+    </header>
+
+    <div class="content">
+        <div class="form-wrapper">
+            <div class="form-container">
+                <form action="index.html" method="GET">
+                    <div class = "form-group">
+                        <label for="post-text">Post<br>body</label>
+                        <textarea id="post-text" placeholder="textarea"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="file-upload">Select<br>file</label>
+                        <div class="file-input">
+                            <label for="file-upload" class="file-btn">Choose File</label>
+                            <input type="file" id="file-upload" />
+                        </div>
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit" class="submit-btn">Create post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
