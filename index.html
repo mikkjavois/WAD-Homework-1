@@ -14,7 +14,16 @@
             <a href="index.html">Home</a>
             <a href="addPost.html">Post</a>
         </nav>
-        <img class="profile-icon" src="res/images/avatar.jpg" alt="Profile Icon">
+        <div class="profile-control">
+            <button class="profile-toggle" type="button" aria-label="Open login page" aria-expanded="false">
+                <img class="profile-icon" src="res/images/avatar.jpg" alt="">
+            </button>
+            <div class="profile-dropdown" hidden>
+                <p class="profile-name"></p>
+                <p class="profile-email"></p>
+                <button class="logout-btn" type="button">logout</button>
+            </div>
+        </div>
     </header>
 
     <section class="content">
@@ -30,4 +39,5 @@
     </footer>
 
     <script src="src/js/fetchPosts.js"></script>
+    <script src="src/js/profileMenu.js"></script>
 </body>

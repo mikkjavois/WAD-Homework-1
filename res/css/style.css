@@ -112,6 +112,63 @@ nav > a ~ a {
     border-radius: 50%;
 }
 
+.profile-control {
+    position: relative;
+}
+
+.profile-toggle {
+    display: block;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.profile-toggle:focus-visible,
+.logout-btn:focus-visible {
+    outline: 2px solid #1d4d82;
+    outline-offset: 2px;
+}
+
+.profile-dropdown {
+    position: absolute;
+    z-index: 1;
+    top: calc(100% + .25em);
+    right: 0;
+    width: 12em;
+    box-sizing: border-box;
+    padding: .5em 1em;
+    border-radius: 14px;
+    background-color: #c4c4c4;
+}
+
+.profile-dropdown[hidden] {
+    display: none;
+}
+
+.profile-dropdown p {
+    margin: 0 0 .4em;
+}
+
+.profile-email {
+    overflow-wrap: anywhere;
+}
+
+.logout-btn {
+    padding: .2em 0;
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
+    color: black;
+    font: inherit;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #00000014;
+}
+
 .filler {
     background-color: lightgray;
     flex: 1;
