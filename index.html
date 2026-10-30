@@ -17,102 +17,17 @@
         <img class="profile-icon" src="res/images/avatar.jpg" alt="Profile Icon">
     </header>
 
-    <div class="content">
+    <section class="content">
         <div class="filler"></div>
 
-        <section class="posts">
-            <article class="post">
-                <div class="post-header">
-                    <img class="profile-icon" src="res/images/avatar.jpg" alt="Profile Icon">
-                    <span>
-                        Sep 22, 2026
-                    </span>
-                </div>
-                <div class="post-body">
-                    <div class="post-attachment">
-                        <img src="res/images/frog.jpg" alt="Frog">
-                    </div>
-                    <p>Konn 2026</p>
-                </div>
-                <div class="post-footer">
-                    <img src="res/images/like.png" alt="Like">
-                </div>
-            </article>
-
-            <article class="post">
-                <div class="post-header">
-                    <img class="profile-icon" src="res/images/avatar.jpg" alt="Profile Icon">
-                    <span>
-                        Sep 23, 2026
-                    </span>
-                </div>
-                <div class="post-body">
-                    <p>Here is an example post without image</p>
-                </div>
-                <div class="post-footer">
-                    <img src="res/images/like.png" alt="Like">
-                </div>
-            </article>
-
-            <article class="post">
-                <div class="post-header">
-                    <img class="profile-icon" src="res/images/avatar.jpg" alt="Profile Icon">
-                    <span>
-                        Sep 24, 2026
-                    </span>
-                </div>
-                <div class="post-body">
-                    <div class="post-attachment">
-                        <img src="res/images/rull.jpg" alt="Rull">
-                    </div>
-                    <p>Coop cinnamon roll price is through the roof!</p>
-                </div>
-                <div class="post-footer">
-                    <img src="res/images/like.png" alt="Like">
-                </div>
-            </article>
-
-            <article class="post">
-                <div class="post-header">
-                    <img class="profile-icon" src="res/images/avatar.jpg" alt="Profile Icon">
-                    <span>
-                        Sep 23, 2026
-                    </span>
-                </div>
-                <div class="post-body">
-                    <p>Tere tere</p>
-                </div>
-                <div class="post-footer">
-                    <img src="res/images/like.png" alt="Like">
-                </div>
-            </article>
-
-            <article class="post">
-                <div class="post-header">
-                    <img class="profile-icon" src="res/images/avatar.jpg" alt="Profile Icon">
-                    <span>
-                        Sep 28, 2026
-                    </span>
-                </div>
-                <div class="post-body">
-                    <div class="post-attachment">
-                        <img src="res/images/kevade.jpg" alt="Kevade">
-                    </div>
-                    <p>Konn 2026</p>
-                </div>
-                <div class="post-body">
-                    <p>"Kevade" on Oskar Lutsu lühiromaan, mille esimene väljaanne pealkirjaga "Kevade: Pildikesed koolipõlvest" ilmus kahes osas aastatel 1912 ja 1913. Lutsu koolipõlvemälestustel põhinev raamat on üks Eesti kirjanduse tuntumaid teoseid, mis on ilmunud 23 trükis ja tõlgitud 15 keelde.</p>
-                </div>
-                <div class="post-footer">
-                    <img src="res/images/like.png" alt="Like">
-                </div>
-            </article>
-        </section>
+        <section class="posts" id="postsContainer"></section>
 
         <div class="filler"></div>
-    </div>
+    </section>
 
     <footer>
         Footer
     </footer>
+
+    <script src="src/js/fetchPosts.js"></script>
 </body>

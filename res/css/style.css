@@ -4,7 +4,7 @@ body {
     font-family:"Consolas";
 }
 
-header {
+body > header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,7 +16,7 @@ header {
     border-radius: 5px;
 }
 
-header ul {
+body > header ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -75,6 +75,15 @@ nav > a ~ a {
     margin-bottom: 1em;
 }
 
+.post-author {
+    display: flex;
+    align-items: center;
+}
+
+.post-author-name {
+    margin-left: 10px;
+}
+
 .post-body {
     display: flex;
     align-content: center;
@@ -111,7 +120,7 @@ nav > a ~ a {
     border-radius: 5px;
 }
 
-footer {
+body > footer {
     font-size: xx-large;
     text-align: center;
     border-radius: 5px;
@@ -130,7 +139,7 @@ footer {
         margin: 1em 0;
     }
 
-    header {
+    body > header {
         border-radius: 0px;
         left: 0;
         right: 0;
